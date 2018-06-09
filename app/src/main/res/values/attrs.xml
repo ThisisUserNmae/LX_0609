@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<declare-styleable name="MyTitle">-->
+
+        <!--<attr name="title_text" format="string"></attr>-->
+        <!--<attr name="left_text" format="string"></attr>-->
+        <!--<attr name="right_text" format="string"></attr>-->
+        <!--<attr name="left_right_btn_true_or_false" format="boolean"></attr>-->
+
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="MyFlowLayout">
+
+        <attr name="title_text" format="string"></attr>
+        <attr name="left_text" format="string"></attr>
+        <attr name="right_text" format="string"></attr>
+
+
+    </declare-styleable>
+</resources>
