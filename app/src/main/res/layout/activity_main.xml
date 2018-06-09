@@ -5,16 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:orientation="vertical"
     >
 
-    <!--<com.bwei.lx_0609.MyTitle-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--app:title_text="首页"-->
-        <!--app:left_text="返回上级"-->
-        <!--app:right_text="登陆"-->
-
-        <!--/>-->
 
     <com.bwei.lx_0609.MyTitle
         android:layout_width="match_parent"
@@ -22,6 +15,59 @@
         app:title_text="首页"
         app:left_text="返回上级"
         app:right_text="登陆"
-
+        android:id="@+id/main_title"
         />
+
+    <com.bwei.lx_0609.MyFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/main_flow"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#44f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#44ff44"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#159666"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#4ff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#A9A9A9"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们很好"
+            android:background="#f00"
+            />
+
+    </com.bwei.lx_0609.MyFlowLayout>
+
 </LinearLayout>

@@ -42,9 +42,8 @@ public class MyTitle extends LinearLayout implements View.OnClickListener{
         right_btn.setText(right_text);
         title.setText(title_text);
 
-
-
-
+        left_btn.setOnClickListener(this);
+        right_btn.setOnClickListener(this);
 
     }
 
@@ -55,21 +54,13 @@ public class MyTitle extends LinearLayout implements View.OnClickListener{
 
             case R.id.left_btn:
 
-                if(btnChlick !=null){
-
                     btnChlick.leftBtnClick();
-
-                }
 
                 break;
 
                 case R.id.right_btn:
 
-                    if(btnChlick !=null){
-
                         btnChlick.rightBtnClick();
-
-                    }
 
             break;
 
